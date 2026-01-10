@@ -1,0 +1,29 @@
+# General editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# C++ build artifacts
+CXX/bin/
+CXX/obj/
+
+# Haskell build artifacts
+haskell/*.o
+haskell/*.hi
+haskell/hello
+haskell/type_inference
+
+# OCaml build artifacts
+ocaml/_build/
+ocaml/type_inference
+ocaml/*.cmi
+ocaml/*.cmo
+ocaml/*.cmx
+
+# TypeScript compiled JavaScript
+typescript/*.js
+typescript/*.js.map

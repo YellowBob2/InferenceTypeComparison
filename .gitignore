@@ -7,22 +7,27 @@ Thumbs.db
 *.swp
 *.swo
 
+.build/
+
+
+
 # C++ build artifacts
 CXX/bin/
 CXX/obj/
 
 # Haskell build artifacts
-haskell/*.o
-haskell/*.hi
+*.o
+*.hi
+
 haskell/hello
 haskell/type_inference
 
 # OCaml build artifacts
 ocaml/_build/
 ocaml/type_inference
-ocaml/*.cmi
-ocaml/*.cmo
-ocaml/*.cmx
+*.cmi
+*.cmo
+*.cmx
 
 # TypeScript compiled JavaScript
 typescript/*.js

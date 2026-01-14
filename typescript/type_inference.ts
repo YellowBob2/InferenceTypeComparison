@@ -54,6 +54,9 @@ function getLength<T extends string | any[]>(item: T): number {
     return item.length;
 }
 
+
+
+
 // Classe générique
 class Container<T> {
     private items: T[] = [];
@@ -96,29 +99,29 @@ interface Shape {
     display(): string;
 }
 
-class Circle implements Shape {
-    constructor(private radius: number) {}
+// class Circle implements Shape {
+//     constructor(private radius: number) {}
 
-    area(): number {
-        return Math.PI * this.radius * this.radius;
-    }
+//     area(): number {
+//         return Math.PI * this.radius * this.radius;
+//     }
 
-    display(): string {
-        return `Circle with radius ${this.radius}`;
-    }
-}
+//     display(): string {
+//         return `Circle with radius ${this.radius}`;
+//     }
+// }
 
-class Rectangle implements Shape {
-    constructor(private width: number, private height: number) {}
+// class Rectangle implements Shape {
+//     constructor(private width: number, private height: number) {}
 
-    area(): number {
-        return this.width * this.height;
-    }
+//     area(): number {
+//         return this.width * this.height;
+//     }
 
-    display(): string {
-        return `Rectangle ${this.width}×${this.height}`;
-    }
-}
+//     display(): string {
+//         return `Rectangle ${this.width}×${this.height}`;
+//     }
+// }
 
 function example4() {
     console.log("\n=== 4. CLASSES AND INTERFACES ===");

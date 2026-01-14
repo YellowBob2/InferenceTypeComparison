@@ -14,7 +14,7 @@ example1 = do
     print (add 5 0.5)         -- 5.5   -   5 inférée comme Double pour éviter erreur
     let a = 5
     let b = 5.5
-    print (add a b)           -- 10.5  -   5 inférée comme Double pour éviter erreur
+    print (add a b)           -- 10.5  - 
 
     -- types mixtes ne sont pas autorisés
     let c :: Int
